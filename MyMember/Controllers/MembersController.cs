@@ -3,9 +3,11 @@ using System.Threading.Tasks;
 using System.Net;
 using System.Web.Mvc;
 using MyMember.Models;
+using System;
 
 namespace MyMember.Controllers
 {
+    [Authorize]
     public class MembersController : Controller
     {
         private ApplicationDbContext db = new ApplicationDbContext();
@@ -42,14 +44,14 @@ namespace MyMember.Controllers
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<ActionResult> Create([Bind(Include = "Id,FirstName,LastName,PhoneNumber,Email,IdentityNumber,UserName,CreateAt")] Members members)
+        public async Task<ActionResult> Create([Bind(Include = "Id,FirstName,LastName,PhoneNumber,Email,IdentityNumber")] Members members)
         {
-            if (ModelState.IsValid)
-            {
-                db.Members.Add(members);
-                await db.SaveChangesAsync();
-                return RedirectToAction("Index");
-            }
+            members.CreateAt = DateTime.Now;
+            members.UserName = User.Identity.Name;
+            db.Members.Add(members);
+            await db.SaveChangesAsync();
+            return RedirectToAction("Index");
+
 
             return View(members);
         }
