@@ -170,3 +170,4 @@ C:\Users\shahin.gazi\Source\Repos\MyMember\MyMember\obj\Debug\MyMember.csproj.Ge
 C:\Users\shahin.gazi\Source\Repos\MyMember\MyMember\obj\Debug\MyMember.csproj.CoreCompileInputs.cache
 C:\Users\shahin.gazi\Source\Repos\MyMember\MyMember\obj\Debug\MyMember.dll
 C:\Users\shahin.gazi\Source\Repos\MyMember\MyMember\obj\Debug\MyMember.pdb
+C:\Users\shahin.gazi\Source\Repos\MyMember\MyMember\obj\Debug\MyMember.Migrations.AddMembersActivity.resources

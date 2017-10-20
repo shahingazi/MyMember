@@ -4,6 +4,7 @@ using System.Net;
 using System.Web.Mvc;
 using MyMember.Models;
 using System;
+using System.Linq;
 
 namespace MyMember.Controllers
 {
@@ -13,9 +14,14 @@ namespace MyMember.Controllers
         private ApplicationDbContext db = new ApplicationDbContext();
 
         // GET: Members
-        public async Task<ActionResult> Index()
+        public async Task<ActionResult> Index(string identityNumber, string email, string phoneNumber)
         {
-            return View(await db.Members.ToListAsync());
+            var result = await db.Members
+                .FilterByEmail(email)
+                .FilterByIdentity(identityNumber)
+                .FilterByPhoneNumber(phoneNumber)
+                .ToListAsync();          
+            return View(result);
         }
 
         // GET: Members/Details/5

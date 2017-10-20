@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
 namespace MyMember.Models
@@ -16,6 +17,7 @@ namespace MyMember.Models
         [Required]
         public string UserName { get; set; }
         public DateTime CreateAt { get; set; }
+        public ICollection<MembersActivity> Students { get; set; }
     }
 
     public class GroupsMember

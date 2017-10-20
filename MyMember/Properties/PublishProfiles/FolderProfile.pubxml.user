@@ -22,10 +22,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>10/17/2017 13:35:27</publishTime>
     </File>
     <File Include="bin/App_global.asax.compiled">
-      <publishTime>10/17/2017 18:11:46</publishTime>
+      <publishTime>10/20/2017 16:53:47</publishTime>
     </File>
     <File Include="bin/App_global.asax.dll">
-      <publishTime>10/17/2017 18:11:46</publishTime>
+      <publishTime>10/20/2017 16:53:47</publishTime>
     </File>
     <File Include="bin/EntityFramework.dll">
       <publishTime>03/02/2015 08:32:26</publishTime>
@@ -100,10 +100,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>01/05/2012 10:08:46</publishTime>
     </File>
     <File Include="bin/MyMember.dll">
-      <publishTime>10/17/2017 18:11:39</publishTime>
+      <publishTime>10/20/2017 16:37:35</publishTime>
     </File>
     <File Include="bin/MyMember.pdb">
-      <publishTime>10/17/2017 18:11:39</publishTime>
+      <publishTime>10/20/2017 16:37:35</publishTime>
     </File>
     <File Include="bin/Newtonsoft.Json.dll">
       <publishTime>06/18/2017 13:57:10</publishTime>
@@ -340,7 +340,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>10/17/2017 11:37:57</publishTime>
     </File>
     <File Include="PrecompiledApp.config">
-      <publishTime>10/17/2017 18:11:40</publishTime>
+      <publishTime>10/20/2017 16:53:41</publishTime>
     </File>
     <File Include="Scripts/bootstrap.js">
       <publishTime>10/17/2017 13:35:12</publishTime>
@@ -499,19 +499,34 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>10/17/2017 11:38:05</publishTime>
     </File>
     <File Include="Views/Members/Create.cshtml">
-      <publishTime>10/17/2017 17:57:32</publishTime>
+      <publishTime>10/20/2017 16:44:09</publishTime>
     </File>
     <File Include="Views/Members/Delete.cshtml">
-      <publishTime>10/17/2017 17:09:58</publishTime>
+      <publishTime>10/20/2017 16:50:10</publishTime>
     </File>
     <File Include="Views/Members/Details.cshtml">
-      <publishTime>10/17/2017 17:09:59</publishTime>
+      <publishTime>10/20/2017 16:50:16</publishTime>
     </File>
     <File Include="Views/Members/Edit.cshtml">
-      <publishTime>10/17/2017 17:59:04</publishTime>
+      <publishTime>10/20/2017 16:50:21</publishTime>
     </File>
     <File Include="Views/Members/Index.cshtml">
-      <publishTime>10/17/2017 17:55:03</publishTime>
+      <publishTime>10/20/2017 16:50:49</publishTime>
+    </File>
+    <File Include="Views/MembersActivities/Create.cshtml">
+      <publishTime>10/20/2017 16:48:18</publishTime>
+    </File>
+    <File Include="Views/MembersActivities/Delete.cshtml">
+      <publishTime>10/20/2017 16:45:57</publishTime>
+    </File>
+    <File Include="Views/MembersActivities/Details.cshtml">
+      <publishTime>10/18/2017 16:22:29</publishTime>
+    </File>
+    <File Include="Views/MembersActivities/Edit.cshtml">
+      <publishTime>10/18/2017 16:22:30</publishTime>
+    </File>
+    <File Include="Views/MembersActivities/Index.cshtml">
+      <publishTime>10/20/2017 16:51:27</publishTime>
     </File>
     <File Include="Views/Shared/Error.cshtml">
       <publishTime>10/17/2017 11:38:05</publishTime>
@@ -520,7 +535,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>10/17/2017 11:38:05</publishTime>
     </File>
     <File Include="Views/Shared/_Layout.cshtml">
-      <publishTime>10/17/2017 17:33:59</publishTime>
+      <publishTime>10/20/2017 16:53:31</publishTime>
     </File>
     <File Include="Views/Shared/_LoginPartial.cshtml">
       <publishTime>10/17/2017 11:38:05</publishTime>
