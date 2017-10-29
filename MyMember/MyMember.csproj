@@ -210,6 +210,7 @@
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Controllers\MembersActivitiesController.cs" />
     <Compile Include="Controllers\MembersController.cs" />
+    <Compile Include="Controllers\MembersPointTablesController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -233,6 +234,10 @@
     <Compile Include="Migrations\201710181421340_AddMembersActivity.Designer.cs">
       <DependentUpon>201710181421340_AddMembersActivity.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201710210005343_MembersPointTable.cs" />
+    <Compile Include="Migrations\201710210005343_MembersPointTable.Designer.cs">
+      <DependentUpon>201710210005343_MembersPointTable.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\IdentityModels.cs" />
@@ -240,6 +245,7 @@
     <Compile Include="Models\MemberExtensions.cs" />
     <Compile Include="Models\Members.cs" />
     <Compile Include="Models\MembersActivity.cs" />
+    <Compile Include="Models\MembersPointTable.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -346,6 +352,11 @@
     <Content Include="Views\MembersActivities\Details.cshtml" />
     <Content Include="Views\MembersActivities\Edit.cshtml" />
     <Content Include="Views\MembersActivities\Index.cshtml" />
+    <Content Include="Views\MembersPointTables\Create.cshtml" />
+    <Content Include="Views\MembersPointTables\Delete.cshtml" />
+    <Content Include="Views\MembersPointTables\Details.cshtml" />
+    <Content Include="Views\MembersPointTables\Edit.cshtml" />
+    <Content Include="Views\MembersPointTables\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -368,6 +379,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201710181421340_AddMembersActivity.resx">
       <DependentUpon>201710181421340_AddMembersActivity.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201710210005343_MembersPointTable.resx">
+      <DependentUpon>201710210005343_MembersPointTable.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

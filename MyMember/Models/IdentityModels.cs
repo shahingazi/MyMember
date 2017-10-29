@@ -37,5 +37,7 @@ namespace MyMember.Models
         public System.Data.Entity.DbSet<MyMember.Models.GroupsMember> GroupsMembers { get; set; }
 
         public System.Data.Entity.DbSet<MyMember.Models.MembersActivity> MembersActivities { get; set; }
+
+        public System.Data.Entity.DbSet<MyMember.Models.MembersPointTable> MembersPointTables { get; set; }
     }
 }
